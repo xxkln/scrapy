@@ -1,8 +1,8 @@
 # scrapy
 scrapy爬虫新手练习
-# book项目，是从豆瓣爬取评价最高分top250的书单信息
-# MeiZitu项目，是从meizitu.com爬取“可爱”标签的妹子图片
-# ArticleSpider 是从伯乐网站上爬取文章信息，并存入数据库
+### book项目，是从豆瓣爬取评价最高分top250的书单信息
+### MeiZitu项目，是从meizitu.com爬取“可爱”标签的妹子图片
+### ArticleSpider 是从伯乐网站上爬取文章信息，并存入数据库
 
 ### 基本步骤
 - 选择一个网站
@@ -19,9 +19,12 @@ scrapy爬虫新手练习
 地址：https://www.lfd.uci.edu/~gohlke/pythonlibs/#twisted
 选择对于的python版本，点击链接下载whl文件,如“ Twisted-18.7.0-cp34-cp34m-win_amd64.whl”
 
-**安装Scrapy执行过程中经常出现的问题** *building'twisted.test.raiser' extension error: Microsoft Visual C++ 10.0 is required.*
+**安装Scrapy执行过程中经常出现的问题** 
+*building'twisted.test.raiser' extension error: Microsoft Visual C++ 10.0 is required.*
 ![20180801184513.png](https://upload-images.jianshu.io/upload_images/46858-76ad64076459ced9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-执行pip安装
+
+###### 执行pip安装
+
 ```
 pip install Twisted-18.7.0-cp34-cp34m-win_amd64.whl
 ```
