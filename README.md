@@ -3,6 +3,7 @@ scrapy爬虫新手练习
 ### book项目，是从豆瓣爬取评价最高分top250的书单信息
 ### MeiZitu项目，是从meizitu.com爬取“可爱”标签的妹子图片
 ### ArticleSpider 是从伯乐网站上爬取文章信息，并存入数据库
+### weixintext  每日一句发送给微信朋友
 
 ### 基本步骤
 - 选择一个网站
